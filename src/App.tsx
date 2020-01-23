@@ -9,13 +9,16 @@ const App: React.FC = () => {
   // const onClick = (name: string) => {
   //   console.log(name, 'says hello');
   // }
-  // return <Greetings name="React" onClick={onClick} />;
+  // return <Greetings name="React" optional="this is opstional" onClick={onClick} />;
   
   // return <Counter />;
   
   const onSubmit = (form: {name: string;description: string}) => {
     console.log(form);
   }
+
+  // return <MyForm onSubmit={onSubmit} />
+
   return <MyFormC onSubmit={onSubmit} />;
 
   // return <ReducerSample />;

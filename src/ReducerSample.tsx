@@ -67,7 +67,7 @@ function ReducerSample(){
                 <code>color: </code> {state.color}
             </p>
             <p>
-                <code>isGood: </code> {state.isGood ? 'true' : 'false'}
+                <code>isGood: </code> {state.isGood ? 'truetrue' : 'false'}
             </p>
             <div>
                 <button onClick={setCount}>SET_COUNT</button>
